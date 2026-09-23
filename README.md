@@ -1,6 +1,6 @@
-# TP2 — Análise Sintática: Avaliador de Expressões com Listener
+# TP2 — Análise Sintática: Avaliador de Expressões com Visitors
 
-Trabalho 02 da disciplina de Compiladores, desenvolvido para implementar um avaliador de expressões aritméticas utilizando o padrão de projeto **Listener** do **ANTLR** com **Python**.
+Trabalho 02 da disciplina de Compiladores, desenvolvido para implementar um avaliador de expressões aritméticas utilizando o padrão de projeto **Visitor** do **ANTLR** com **Python**.
 
 ## Sobre o trabalho
 
@@ -70,9 +70,9 @@ Não é necessário executar `docker compose build` novamente ao alterar `EvalLi
 ├── Dockerfile
 ├── docker-compose.yml
 ├── Expr.g4
-├── EvalListener.py
+├── EvalVisitor.py
 ├── main.py
 └── README.md
 ```
 
-Os arquivos `Expr.g4`, `EvalListener.py` e `main.py` correspondem aos arquivos exigidos para a entrega do trabalho.
+Os arquivos `Expr.g4`, `EvalVisitor.py` e `main.py` correspondem aos arquivos exigidos para a entrega do trabalho.
